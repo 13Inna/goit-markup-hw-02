@@ -24,21 +24,18 @@ body {
 .header-logo:focus {
   background-color: var(--accent-background-color-button);
 }
-.header-nav-link:hover,
-.header-nav-link:focus {
+.pre-pre-nav:hover,
+.pre-pre-nav:focus {
   background-color: var(--accent-background-color-button);
 }
-.header-nav-link-b:hover,
-.header-nav-link-b:focus {
+.pre-button:hover,
+.pre-button:focus {
   background-color: var(--accent-background-color-button);
-}
-.heading-button:hover,
-.heading-button:focus {
-  background-color: var(--accent-background-color-button);
+  cursor: pointer;
 }
 .pre-nav:hover,
 .pre-nav:focus {
-  color: #212121;
+  color: var(--accent-text-color);
 }
 
 /*-------------header-----------*/
@@ -136,4 +133,30 @@ body {
 .footer-contakt-mailto,
 .footer-contakt-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+/*---------------Portfolio------------*/
+
+.portfolio-header-nav-link {
+  color: var(--text-title-color);
+}
+.portfolio-header-nav-link-b {
+  color: var(--accent-text-color);
+}
+.portfolio-header-contakt-mailto,
+.portfolio-header-contakt-tel {
+  color: var(--text-color);
+}
+.button-li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.portfolio-button-b {
+  color: var(--text-color-white);
+  background-color: var(--accent-text-color);
+}
+.portfolio-button {
+  color: var(--text-title-color);
+  background: #f5f4fa;
+  border-radius: 4px;
 }
