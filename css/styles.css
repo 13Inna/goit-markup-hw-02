@@ -13,6 +13,7 @@ body {
   color: #757575;
   font-family: Roboto;
   font-style: sans-serif;
+  font-weight: normal;
 }
 .list {
   list-style: none;
@@ -80,7 +81,7 @@ body {
 .heading-button {
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.87;
   color: #ffffff;
   background-color: #2196f3;
 }
@@ -94,7 +95,6 @@ body {
   color: var(--text-title-color);
 }
 .pre-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -146,7 +146,7 @@ body {
 .portfolio-header-contakt-tel {
   color: var(--text-color);
 }
-.button-li {
+.filters-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -159,4 +159,12 @@ body {
   color: var(--text-title-color);
   background: #f5f4fa;
   border-radius: 4px;
+}
+.main-project-ul-title {
+  font-size: 18px;
+  line-height: 2;
+}
+.main-project-text {
+  font-size: 16px;
+  line-height: 1.87;
 }
