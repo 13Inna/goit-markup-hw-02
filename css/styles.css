@@ -21,6 +21,10 @@ body {
 .link {
   text-decoration: none;
 }
+.visually-hidden {
+  display: none;
+}
+
 .header-logo:hover,
 .header-logo:focus {
   background-color: var(--accent-background-color-button);
