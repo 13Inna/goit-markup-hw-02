@@ -27,15 +27,15 @@ body {
 
 .header-logo:hover,
 .header-logo:focus {
-  background-color: var(--accent-background-color-button);
+  color: var(--accent-background-color-button);
 }
 .pre-pre-nav:hover,
 .pre-pre-nav:focus {
-  background-color: var(--accent-background-color-button);
+  color: var(--accent-background-color-button);
 }
 .pre-button:hover,
 .pre-button:focus {
-  background-color: var(--accent-background-color-button);
+  color: var(--accent-background-color-button);
   cursor: pointer;
 }
 .pre-nav:hover,
